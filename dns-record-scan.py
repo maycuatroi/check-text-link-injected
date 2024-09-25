@@ -3,7 +3,7 @@ import sys
 
 
 def scan_dns_records(domain):
-    record_types = ["A", "AAAA", "MX", "NS", "TXT", "CNAME"]
+    record_types = ["A", "AAAA", "MX", "NS", "TXT", "CNAME", "SOA"]
 
     print(f"DNS records for {domain}:\n")
 
@@ -24,5 +24,5 @@ def scan_dns_records(domain):
 
 
 if __name__ == "__main__":
-    domain = "hondaotovovankiet.vn"
+    domain = "bepduc.vn"
     scan_dns_records(domain)
